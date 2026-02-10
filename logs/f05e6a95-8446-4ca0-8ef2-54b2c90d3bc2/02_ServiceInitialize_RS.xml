@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><ServiceInitializeResponse xmlns="http://tempuri.org/"><ServiceInitializeResult><error>
-<code>000</code>
-<message>Success Request Transaction</message>
-<server_id>Blade-2</server_id>
-</error>
-</ServiceInitializeResult></ServiceInitializeResponse></soap:Body></soap:Envelope>

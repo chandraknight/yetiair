@@ -1,9 +1,0 @@
-2026-02-10 15:44:48,640 - YetiAir API.f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 - INFO - Received ServiceInitialize request
-2026-02-10 15:44:48,648 - YetiAir API.f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 - INFO - Sending ServiceInitialize request to http://restest.yetiairlines.com/tikAeroWebAPI/BookingService.asmx?wsdl
-2026-02-10 15:44:48,887 - YetiAir API.f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 - INFO - Session cookies saved for search_id=f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2
-2026-02-10 15:44:48,887 - YetiAir API.f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 - INFO - Received response from Yeti API ServiceInitialize: status=200
-2026-02-10 15:44:48,888 - YetiAir API.f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 - INFO - Successfully processed ServiceInitialize request
-2026-02-10 15:45:53,711 - YetiAir API.f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 - INFO - Received FlightAdd request: search_id='f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2' flight_id='D07D3437-9ECE-4F21-95F8-23A6C44ED539' fare_id='85DCDCDB-8C88-4352-8320-FEC91E276BE3' origin='KTM' destination='PKR' adults=1 children=0 infants=0
-2026-02-10 15:45:53,723 - YetiAir API.f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 - INFO - Sending FlightAdd request to http://restest.yetiairlines.com/tikAeroWebAPI/BookingService.asmx?wsdl for search_id=f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 flight_id=D07D3437-9ECE-4F21-95F8-23A6C44ED539
-2026-02-10 15:45:53,952 - YetiAir API.f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 - INFO - Received response from Yeti API FlightAdd: status=200
-2026-02-10 15:45:53,954 - YetiAir API.f05e6a95-8446-4ca0-8ef2-54b2c90d3bc2 - INFO - Successfully processed FlightAdd request
