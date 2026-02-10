@@ -14,5 +14,4 @@ class FlightAvailabilityRequest(BaseModel):
 
 class FlightAvailabilityResponse(BaseModel):
     search_id: str
-    raw_response: str
     data: Optional[dict] = None

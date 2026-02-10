@@ -1,0 +1,9 @@
+2026-02-10 15:38:56,073 - YetiAir API.f3d050cf-b0b8-4ce8-a021-a6b74033367a - INFO - Received flight availability request: origin='KTM' destination='POK' depart_date='2026-02-20' return_date='2026-02-20' adults=1 children=0 infants=0 others=0 nationality='NP'
+2026-02-10 15:38:56,080 - YetiAir API.f3d050cf-b0b8-4ce8-a021-a6b74033367a - INFO - Sending FlightAvailability request to http://restest.yetiairlines.com/tikAeroWebAPI/BookingService.asmx?wsdl for origin=KTM destination=POK date=2026-02-20
+2026-02-10 15:38:56,653 - YetiAir API.f3d050cf-b0b8-4ce8-a021-a6b74033367a - INFO - Received response from Yeti API: status=200
+2026-02-10 15:38:56,654 - YetiAir API.f3d050cf-b0b8-4ce8-a021-a6b74033367a - INFO - Successfully processed flight availability request
+2026-02-10 15:47:47,407 - YetiAir API.f3d050cf-b0b8-4ce8-a021-a6b74033367a - INFO - Received FlightAdd request: search_id='f3d050cf-b0b8-4ce8-a021-a6b74033367a' flight_id='{D9B4B83A-E4A9-4EA6-8038-3BFB38044B5F}' fare_id='{85DCDCDB-8C88-4352-8320-FEC91E276BE3}' origin='KTM' destination='PKR' adults=1 children=0 infants=0
+2026-02-10 15:47:47,407 - YetiAir API.f3d050cf-b0b8-4ce8-a021-a6b74033367a - WARNING - No cookies found for search_id=f3d050cf-b0b8-4ce8-a021-a6b74033367a in FlightAdd. Session might be invalid.
+2026-02-10 15:47:47,437 - YetiAir API.f3d050cf-b0b8-4ce8-a021-a6b74033367a - INFO - Sending FlightAdd request to http://restest.yetiairlines.com/tikAeroWebAPI/BookingService.asmx?wsdl for search_id=f3d050cf-b0b8-4ce8-a021-a6b74033367a flight_id={D9B4B83A-E4A9-4EA6-8038-3BFB38044B5F}
+2026-02-10 15:47:47,595 - YetiAir API.f3d050cf-b0b8-4ce8-a021-a6b74033367a - INFO - Received response from Yeti API FlightAdd: status=200
+2026-02-10 15:47:47,597 - YetiAir API.f3d050cf-b0b8-4ce8-a021-a6b74033367a - INFO - Successfully processed FlightAdd request

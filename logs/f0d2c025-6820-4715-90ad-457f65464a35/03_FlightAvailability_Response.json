@@ -1,0 +1,10 @@
+{
+  "search_id": "f0d2c025-6820-4715-90ad-457f65464a35",
+  "raw_response": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><FlightAvailabilityResponse xmlns=\"http://tempuri.org/\"><FlightAvailabilityResult><Availability><AvailabilityOutbound></AvailabilityOutbound><AvailabilityReturn></AvailabilityReturn></Availability></FlightAvailabilityResult></FlightAvailabilityResponse></soap:Body></soap:Envelope>",
+  "data": {
+    "Availability": {
+      "AvailabilityOutbound": null,
+      "AvailabilityReturn": null
+    }
+  }
+}

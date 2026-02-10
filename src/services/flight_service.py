@@ -15,7 +15,7 @@ class FlightService:
         parsed_data = parse_yeti_xml_response(response_text)
         
         # Create response model
-        response_model = FlightAvailabilityResponse(search_id=search_id, raw_response=response_text, data=parsed_data)
+        response_model = FlightAvailabilityResponse(search_id=search_id, data=parsed_data)
         
         # Log final JSON response
         try:
@@ -36,7 +36,20 @@ class FlightService:
     @staticmethod
     async def add_flight(request: FlightAddRequest, search_id: str) -> FlightAddResponse:
         response_text = await yeti_client.flight_add(request, search_id)
-        return FlightAddResponse(search_id=search_id, raw_response=response_text)
+        # Parse XML to JSON
+        parsed_data = parse_yeti_xml_response(response_text)
+        
+        # Create response model
+        response_model = FlightAddResponse(search_id=search_id, data=parsed_data)
+        
+        # Log final JSON response
+        try:
+            json_content = response_model.model_dump_json(indent=2)
+            yeti_client.log_to_file(search_id, "FlightAdd_Response.json", json_content)
+        except Exception:
+            pass
+            
+        return response_model
 
     @staticmethod
     async def get_booking_session(request: BookingSessionRequest) -> BookingSessionResponse:

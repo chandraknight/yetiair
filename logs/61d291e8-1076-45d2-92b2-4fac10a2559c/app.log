@@ -1,0 +1,4 @@
+2026-02-10 15:44:10,725 - YetiAir API.61d291e8-1076-45d2-92b2-4fac10a2559c - INFO - Received flight availability request: origin='KTM' destination='PKR' depart_date='2026-02-20' return_date='2026-02-20' adults=1 children=0 infants=0 others=0 nationality='NP'
+2026-02-10 15:44:10,766 - YetiAir API.61d291e8-1076-45d2-92b2-4fac10a2559c - INFO - Sending FlightAvailability request to http://restest.yetiairlines.com/tikAeroWebAPI/BookingService.asmx?wsdl for origin=KTM destination=PKR date=2026-02-20
+2026-02-10 15:44:12,997 - YetiAir API.61d291e8-1076-45d2-92b2-4fac10a2559c - INFO - Received response from Yeti API: status=200
+2026-02-10 15:44:13,015 - YetiAir API.61d291e8-1076-45d2-92b2-4fac10a2559c - INFO - Successfully processed flight availability request
