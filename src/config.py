@@ -8,6 +8,14 @@ class Settings(BaseSettings):
     DATABASE_URL: str
     REDIS_URL: str = "redis://localhost:6379"
     RABBITMQ_URL: str = "amqp://guest:guest@localhost:5672/"
+    
+    # Yeti Airlines API
+    YETI_API_URL: str
+    YETI_AGENCY_CODE: str
+    YETI_USERNAME: str
+    YETI_PASSWORD: str
+    
+    LOG_LEVEL: str = "INFO"
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 

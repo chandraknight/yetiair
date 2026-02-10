@@ -1,0 +1,24 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:FlightAdd>
+         <tem:strXml>
+         <![CDATA[
+         <Booking>
+        	<Header>
+        		<adult>1</adult>
+        		<child>0</child>
+        		<infant>0</infant>
+    		</Header>
+    		<FlightSegment>
+    			<flight_id>{D9B4B83A-E4A9-4EA6-8038-3BFB38044B5F}</flight_id>
+    			<fare_id></fare_id>
+    			<origin_rcd>KTM</origin_rcd>
+    			<destination_rcd>PKR</destination_rcd>
+    		</FlightSegment>
+		</Booking>
+		]]>
+         </tem:strXml>
+      </tem:FlightAdd>
+   </soapenv:Body>
+</soapenv:Envelope>

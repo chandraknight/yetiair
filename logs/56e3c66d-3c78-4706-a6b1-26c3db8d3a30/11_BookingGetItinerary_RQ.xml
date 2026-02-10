@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:BookingGetItinerary>
+         <tem:strRecordLocator>A2GIX4</tem:strRecordLocator>
+      </tem:BookingGetItinerary>
+   </soapenv:Body>
+</soapenv:Envelope>
