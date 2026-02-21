@@ -1,3 +1,9 @@
+"""
+DEPRECATED: This file is deprecated. Use flight_service_facade instead.
+
+Legacy flight service - kept for backward compatibility.
+New code should use: from src.services.flight_service_facade import flight_service_facade
+"""
 from src.modules.yeti_client import yeti_client
 from src.schemas.flight_schema import FlightAvailabilityRequest, FlightAvailabilityResponse
 from src.schemas.flight_add_schema import FlightAddRequest, FlightAddResponse
@@ -7,7 +13,14 @@ from src.schemas.itinerary_schema import ItineraryRequest, ItineraryResponse
 
 from src.utils.xml_parser import parse_yeti_xml_response
 
+
 class FlightService:
+    """
+    DEPRECATED: Use FlightServiceFacade instead.
+    
+    This class is kept for backward compatibility only.
+    """
+    
     @staticmethod
     async def check_availability(request: FlightAvailabilityRequest, search_id: str) -> FlightAvailabilityResponse:
         response_text = await yeti_client.get_flight_availability(request, search_id)
@@ -66,4 +79,6 @@ class FlightService:
         response_text = await yeti_client.booking_get_itinerary(request.pnr, request.search_id)
         return ItineraryResponse(search_id=request.search_id, raw_response=response_text)
 
+
+# Legacy instance - kept for backward compatibility
 flight_service = FlightService()
