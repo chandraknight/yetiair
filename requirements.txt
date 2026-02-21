@@ -10,3 +10,4 @@ redis
 aio_pika
 greenlet
 httpx
+slowapi
